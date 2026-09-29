@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "advancedinscriber:block/advanced_inscriber/top",
+    "side": "advancedinscriber:block/advanced_inscriber/side_on"
+  }
+}

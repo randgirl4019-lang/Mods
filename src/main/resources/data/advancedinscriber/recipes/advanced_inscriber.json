@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:hopper"
+    },
+    "c": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "d": {
+      "item": "appliedenergistics2:inscriber"
+    }
+  },
+  "result": {
+    "item": "advancedinscriber:advanced_inscriber"
+  }
+}

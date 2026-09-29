@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "working=false": {
+      "model": "advancedinscriber:block/advanced_inscriber"
+    },
+    "working=true": {
+      "model": "advancedinscriber:block/advanced_inscriber_on"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="LGPL-3.0-or-later"
+
+[[mods]]
+modId="advancedinscriber"
+version="${version}"
+displayName="Advanced Inscriber Backport"
+authors="Advanced Inscriber Backport contributors"
+credits="Advanced Inscriber design and assets from AE2 Things by ProjectET and Technici4n."
+description='''
+A focused Forge 1.16.5 backport of the Advanced Inscriber from AE2 Things 1.0.7.
+Includes only the Advanced Inscriber; no DISKs and no Crystal Growth Chamber.
+'''
+
+[[dependencies.advancedinscriber]]
+modId="forge"
+mandatory=true
+versionRange="[${forge_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.advancedinscriber]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version},1.17)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.advancedinscriber]]
+modId="appliedenergistics2"
+mandatory=true
+versionRange="[${ae2_version},9.0.0)"
+ordering="AFTER"
+side="BOTH"
