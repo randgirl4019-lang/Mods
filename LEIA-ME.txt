@@ -1,0 +1,16 @@
+# Como usar este arquivo no seu repositório GitHub
+
+1. Extraia o conteúdo deste arquivo `.zip` na raiz do seu repositório de mod do GitHub (ou crie a estrutura de pastas manualmente).
+2. A estrutura final deve ficar assim:
+   seu-repositorio/
+   └── .github/
+       └── workflows/
+           └── build.yml
+
+3. Se a versão do seu Minecraft precisar de outro Java, edite a linha `java-version: '17'` dentro de `build.yml`:
+   - Java 8: Minecraft 1.12.2 ou mais antigo
+   - Java 17: Minecraft 1.18 até 1.20.4
+   - Java 21: Minecraft 1.20.5+
+
+4. Envie o commit para o GitHub.
+5. Acesse a aba **Actions** no GitHub, selecione **Build Mod Jar** e clique em **Run workflow**.
